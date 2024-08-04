@@ -34,7 +34,6 @@ terminal.
 python main.py
 ```
 To run the test file execute this script on your terminal.
-terminal.
 ```bash
 pytest test_main.py
 ```
