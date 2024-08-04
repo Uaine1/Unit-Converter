@@ -22,17 +22,22 @@ For example a weight conversion between pounds and kilograms.
 
 To run my unit converter application you need **Python 3** installed on your PC, also you need to install
 PyQt5 using a pip install
-"""python
-    pip install PyQt5
-    """
+```bash
+pip install PyQt5
+```
 
 ## Usage
 
 1. Run the application: You can press the run button on you IDE or execute this script on your
-terminal
-"""python
-    python main.py
-    """
+terminal.
+```bash
+python main.py
+```
+To run the test file execute this script on your terminal.
+terminal.
+```bash
+pytest test_main.py
+```
 
 2. Unit type selection: You can choose a unit type based on Length, Weight, and Temperature,
 you can see the unit types inside the first dropdown button of the application.
