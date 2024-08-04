@@ -10,11 +10,13 @@ def test_length_converter():
     assert length_converter(1, "inch", "millimeter") == pytest.approx(25.4, 0.01)
     assert length_converter(1, "nautical mile", "meters") == pytest.approx(1852, 0.01)
 
+
 def test_weight_converter():
     assert weight_converter(1000, "grams", "kilograms") == 1
     assert weight_converter(1, "pounds", "grams") == pytest.approx(453.592, 0.01)
     assert weight_converter(16, "ounce", "pounds") == pytest.approx(1, 0.01)
     assert weight_converter(1, "ton", "grams") == 1e6
+
 
 def test_temp_converter():
     assert temp_converter(0, "celsius", "fahrenheit") == 32

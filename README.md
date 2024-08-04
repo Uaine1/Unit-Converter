@@ -2,7 +2,7 @@
 
 ## Description
 
-My application **Unit Converter** has a GUI made in **PyQt5**, I designed to it convert different unit of Length, Weight, and Temperature. The application provides a user friendly interface for selecting unit types, selecting unit, and converting values with so much ease. It offers the user a straightforward way to perform a unit conversion without manually calculating the results. It also useful for students that wants to immediately know the converted value of a specific unit.
+My application **Unit Converter** has a GUI made in **PyQt5**, I designed to it convert different unit of Length, Weight, and Temperature. The application provides a user friendly interface for selecting unit types, selecting unit, and converting values with so much ease. It offers the user a straightforward way to perform a unit conversion without manually calculating the results. It also useful for students in elementary,highschool, senior highschool and college that wants to immediately know the converted value of a specific measurements to desired unit.
 
 ## Features
 
@@ -20,20 +20,29 @@ For example a weight conversion between pounds and kilograms.
 
 ## Installation
 
-To run my unit converter application you need **Python 3** installed on your PC, also you need to install
-PyQt5 using a pip install
+To run my unit converter application you need **Python 3** installed on your mac or windows system, also you need 
+to install PyQt5 using a pip install on your terminal.
 ```bash
 pip install PyQt5
+```
+To run the test file you need to install **PyTest** on your mac or windows system.
+```bash
+pip install pytest
+```
+Or you can just type this on your terminal. To install all of the frameworks that used to make this application.
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 1. Run the application: You can press the run button on you IDE or execute this script on your
-terminal.
+terminal. If you want to manually test the application yourself.
 ```bash
 python main.py
 ```
-To run the test file execute this script on your terminal.
+To run the test file execute this script on your terminal. If you want to automatically test the application
+using **PyTest**
 ```bash
 pytest test_main.py
 ```
@@ -54,10 +63,14 @@ textbox in red text.
 
 ## Contributing
 
-If you would like to contribute or you have suggestions on how should I improve my application.
-I would like to discuss it with you, also feel free to submit a pull request. For major changes,
+If you would like to contribute or you have suggestions or ideas on how should I improve my application.
+I'm open and would like to discuss it with you, also feel free to submit a pull request. For major changes,
 please open an issue first so we can discuss what changes you want to make on my application.
 
 ## License
 
 My application is free to use by everyone on the internet just contact me first before doing so.
+
+
+
+## That's all thank you!
