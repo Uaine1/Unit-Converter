@@ -29,7 +29,7 @@ To run the test file you need to install **PyTest** on your mac or windows syste
 ```bash
 pip install pytest
 ```
-Or you can just type this on your terminal. To install all of the frameworks that used to make this application.
+Or you can just type this on your terminal. To install all of the frameworks that I used to make this application.
 ```bash
 pip install -r requirements.txt
 ```
