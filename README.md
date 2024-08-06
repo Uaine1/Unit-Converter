@@ -3,8 +3,9 @@
 #### Video Demo: 
 
 #### Description
+This is my final project for CS50's Introduction to Programming with Python Course <br />
 
-My application **Unit Converter** has a GUI made in **PyQt5**, I designed to it convert different unit of Length, Weight, and Temperature. The application provides a user friendly interface for selecting unit types, selecting unit, and converting values with so much ease. It offers the user a straightforward way to perform a unit conversion without manually calculating the results. It also useful for students in elementary,highschool, senior highschool and college that wants to immediately know the converted value of a specific measurements to desired unit.
+My application **Unit Converter** has a GUI made in **PyQt5**, I designed it convert different unit of Length, Weight, and Temperature. The application provides a user friendly interface for selecting unit types, selecting unit, and converting values with so much ease. It offers the user a straightforward way to perform a unit conversion without manually calculating the results. It also useful for students in elementary,highschool, senior highschool and college that wants to immediately know the converted value of a specific measurements to desired unit.
 
 #### Features
 
@@ -103,9 +104,5 @@ to the desired output by the user.
 If you would like to contribute or you have suggestions or ideas on how should I improve my application.
 I'm open and would like to discuss it with you, also feel free to submit a pull request. For major changes,
 please open an issue first so we can discuss what changes you want to make on my application.
-
-#### License
-
-MIT
 
 #### That's all thank you!
