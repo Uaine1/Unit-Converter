@@ -7,12 +7,10 @@ def main():
     app = QApplication(sys.argv)
     window = QWidget()
     window.setWindowTitle("Unit Converter")
-
-    window.setWindowIcon(QIcon("loogo.png"))  
+    window.setWindowIcon(QIcon("loogo.png")) 
+    window.setStyleSheet("background-color: #f4f2f2;")
 
     layout = QVBoxLayout()
-
-    window.setStyleSheet("background-color: #f4f2f2;")
 
     select_unit = QLabel("Select a unit type")
     select_unit.setStyleSheet("color: #2c3e50; font-weight: bold;")
@@ -46,7 +44,7 @@ def main():
 
     layout.addLayout(to_from_spacing)
 
-    value_label = QLabel("Value to convert")
+    value_label = QLabel("Enter the values here: ")
     value_label.setStyleSheet("color: #2c3e50; font-weight: bold;")
     layout.addWidget(value_label)
     
@@ -61,7 +59,7 @@ def main():
     units_dropdown.currentTextChanged.connect(lambda: get_unit_list(units_dropdown, from_dropdown, to_dropdown))
     get_unit_list(units_dropdown, from_dropdown, to_dropdown)
 
-    convert_button = QPushButton("Convert")
+    convert_button = QPushButton("Convert Now")
     convert_button.setStyleSheet("background-color: #18D93C; color: black; border: none; padding: 10px; \
                                  font-weight: bold;")
     
@@ -126,6 +124,7 @@ def temp_converter(value, from_unit, to_unit):
     return value
 
 
+# Checks the selected unit type and updates the From and To list of unit
 def get_unit_list(units_dropdown, from_dropdown, to_dropdown):
     unit_type = units_dropdown.currentText()
     from_dropdown.clear()
