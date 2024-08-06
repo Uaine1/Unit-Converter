@@ -12,7 +12,7 @@ def main():
 
     layout = QVBoxLayout()
 
-    window.setStyleSheet("background-color: #f0f0f0;")
+    window.setStyleSheet("background-color: #f4f2f2;")
 
     select_unit = QLabel("Select a unit type")
     select_unit.setStyleSheet("color: #2c3e50; font-weight: bold;")
