@@ -12,6 +12,9 @@ def main():
 
     layout = QVBoxLayout()
 
+    """Styling/Layouting for thee Unit Type Selection, Unit Selection Area, Textinput Area \
+        Result Area and the Convert Button. """
+    
     select_unit = QLabel("Select a unit type")
     select_unit.setStyleSheet("color: #2c3e50; font-weight: bold;")
     layout.addWidget(select_unit)
@@ -53,14 +56,15 @@ def main():
     layout.addWidget(value_input)
 
     result_label = QLabel("")
-    result_label.setStyleSheet("color: #e74c3c; font-weight: bold;")
+    result_label.setStyleSheet("background-color: #212930; color: #FEFEFE; padding: 20px; font-weight: bold;")
     layout.addWidget(result_label)
 
+    # It updates the list of unit available for From and To, based on the unit type selected.
     units_dropdown.currentTextChanged.connect(lambda: get_unit_list(units_dropdown, from_dropdown, to_dropdown))
     get_unit_list(units_dropdown, from_dropdown, to_dropdown)
 
     convert_button = QPushButton("Convert Now")
-    convert_button.setStyleSheet("background-color: #18D93C; color: black; border: none; padding: 10px; \
+    convert_button.setStyleSheet("background-color: #585550; color: #FEFEFE; border: none; padding: 10px; \
                                  font-weight: bold;")
     
     convert_button.clicked.connect(lambda: show_results(value_input, from_dropdown, to_dropdown,\
@@ -123,8 +127,7 @@ def temp_converter(value, from_unit, to_unit):
     
     return value
 
-
-# Checks the selected unit type and updates the From and To list of unit
+# Checks the selected unit type and updates the From and To list of units.
 def get_unit_list(units_dropdown, from_dropdown, to_dropdown):
     unit_type = units_dropdown.currentText()
     from_dropdown.clear()
@@ -163,7 +166,8 @@ def show_results(value_input, from_dropdown, to_dropdown, units_dropdown, result
         result_label.setText(f"Result: {conversion_result}")
         
     except ValueError:
-        QMessageBox.warning(window, "Invalid inputs", "Please enter a number (Ex. 123)")
+        QMessageBox.warning(window, "Invalid Inputs", "Please enter a number (Ex. 123) or\
+                            Don't leave the textbox empty!")
 
 
 if __name__ == "__main__":

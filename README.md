@@ -42,12 +42,12 @@ pip install -r requirements.txt
 1. Run the application: You can press the run button on you IDE or execute this script on your
 terminal. If you want to manually test the application yourself.
 ```bash
-python main.py
+python project.py
 ```
 To run the test file execute this script on your terminal. If you want to automatically test the application
 using **PyTest**
 ```bash
-pytest test_main.py
+pytest test_project.py
 ```
 
 2. Unit type selection: You can choose a unit type based on Length, Weight, and Temperature,
@@ -106,3 +106,4 @@ I'm open and would like to discuss it with you, also feel free to submit a pull 
 please open an issue first so we can discuss what changes you want to make on my application.
 
 #### That's all thank you!
+![loogo](https://github.com/user-attachments/assets/0717f4b1-a8a3-4b3e-ab7a-d79752b191bd)
