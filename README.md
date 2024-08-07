@@ -1,6 +1,6 @@
 # Unit Converter 
 
-#### Video Demo: 
+#### Video Demo: https://youtu.be/c1EUwzGxX7s?si=yYXZzcC9-sHvzDwm
 
 #### Description
 This is my final project for CS50's Introduction to Programming with Python Course <br />
@@ -107,3 +107,5 @@ please open an issue first so we can discuss what changes you want to make on my
 
 #### That's all thank you!
 ![loogo](https://github.com/user-attachments/assets/0717f4b1-a8a3-4b3e-ab7a-d79752b191bd)
+
+Artist Profile: https://www.pixiv.net/en/users/30877153
